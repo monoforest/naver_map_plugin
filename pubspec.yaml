@@ -4,7 +4,7 @@ version: 0.9.7
 repository: https://github.com/LBSTECH/naver_map_plugin.git
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:

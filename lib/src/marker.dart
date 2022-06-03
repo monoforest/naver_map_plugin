@@ -203,9 +203,6 @@ class Marker {
       this.subCaptionRequestedWidth});
 
   Map<String, dynamic> _toJson() {
-    assert(markerId != null);
-    assert(position != null);
-
     final Map<String, dynamic> json = <String, dynamic>{};
 
     void addIfPresent(String fieldName, dynamic value) {
